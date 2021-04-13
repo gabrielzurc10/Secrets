@@ -162,16 +162,6 @@ app.post("/login", function(req, res){
     }
   });
 
-  // req.login({username: req.body.username, password: req.body.password}, function(err, user){
-  //   if (err) {
-  //     console.log(err);
-  //     res.redirect("/login");
-  //   } else {
-  //     passport.authenticate("local")(req, res, function(){
-  //       res.redirect("/secrets");
-  //     });
-  //   }
-  // });
 });
 
 app.post("/submit", function(req, res){
